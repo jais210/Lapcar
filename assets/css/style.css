@@ -15,6 +15,48 @@ body{
 
 
 #taxi{
-	position: absolute;
-    /*clip: rect(20px,80px,20px,40px); para cortar la imagen*/
+	
+	position: relative; /* or absolute */
+   top: 10%;
+   left: none;
+   right: none;
+    /*clip: rect(20px,80px,20px,40px); para cortar la imagen:;*/
 }
+
+#texto{
+	position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 50%; 
+    right: 10%;
+    background-color:#f7b617;
+    /*transform: translate(-50%, -50%);falta centrar bien el texto*/
+}
+
+/*Sección App*/
+#app {
+	position: relative;
+    color: #fff;
+    background: #f7b617;
+}
+
+#celular{
+	position: fixed;
+	top:0px;
+	left: 0px;
+}
+
+/*Footer*/
+
+footer {
+  color: white; }
+  footer h3 {
+    margin-bottom: 30px; }
+  footer .footer-above {
+    padding-top: 50px;
+    background-color: grey; }
+  footer .footer-col {
+    margin-bottom: 50px; }
+  footer .footer-below {
+    padding: 25px 0;
+    background-color: grey; }
