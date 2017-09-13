@@ -1,8 +1,15 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat';
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+  }
 body{
     font-family: 'Monserrat', sans-serif;
 }
+
 
 /*Sección Menú BAR*/
 #menu{
@@ -10,45 +17,43 @@ body{
 }
 
 
-
-/*Sección HERO registrarse*/
-
-
 #taxi{
 	
 	position: relative; /* or absolute */
    top: 10%;
-   left: none;
-   right: none;
+   left: 0px;
+   right: 0px;
+
     /*clip: rect(20px,80px,20px,40px); para cortar la imagen:;*/
 }
 
 #texto{
 	position: absolute;
-    text-align: center;
-    color: white;
-    bottom: 50%; 
-    right: 10%;
-    background-color:#f7b617;
-    /*transform: translate(-50%, -50%);falta centrar bien el texto*/
+  text-align: center;
+  color: white;
+  bottom: 50%; 
+  right: 20%;
+  left: 30%;
+  background-color:#f7b617;
+  
 }
 
 /*Sección App*/
-#app {
-	position: relative;
+#app {	
     color: #fff;
     background: #f7b617;
+    padding:100px;
 }
 
 #celular{
-	position: fixed;
-	top:0px;
-	left: 0px;
+	position: relative;
+	
 }
 
 /*Footer*/
 
 footer {
+
   color: white; }
   footer h3 {
     margin-bottom: 30px; }
